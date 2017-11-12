@@ -1,0 +1,22 @@
+{
+  "name": "xml-express-app",
+  "version": "1.0.0",
+  "description": "Exrpess app usgin xml to pass data",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Villa",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-xml-bodyparser": "^0.3.0",
+    "mysql": "^2.15.0",
+    "object-to-xml": "^1.1.0",
+    "xml": "^1.0.1"
+  }
+}
