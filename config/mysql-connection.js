@@ -3,8 +3,8 @@ const { createConnection } = require('mysql');
 const connection = createConnection({
     database: 'xml_db',
     user: 'root',
-    password: 'root',
-    port: 8889,
+    password: '',
+    port: 3306,
     host: 'localhost'
 })
 
